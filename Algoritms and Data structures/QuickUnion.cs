@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
-    class QuickUnion
+    public class QuickUnion
     {
         private int[] id;
         public QuickUnion(int N) // set id of each object to itself (N array accesses)

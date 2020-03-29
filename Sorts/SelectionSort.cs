@@ -2,7 +2,7 @@
 
 namespace Sorts
 {
-    class SelectionSort
+    public class SelectionSort
     {
         private int[] data;
         private static Random generator = new Random();
@@ -11,7 +11,7 @@ namespace Sorts
             data = new int[size];
             for (int i = 0; i < size; i++)
             {
-                data[i] = generator.Next(20, 90);
+                data[i] = generator.Next(Int32.MinValue, Int32.MaxValue);
             }
         }
 

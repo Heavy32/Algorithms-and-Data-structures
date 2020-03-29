@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
     public class QuickFind
     {

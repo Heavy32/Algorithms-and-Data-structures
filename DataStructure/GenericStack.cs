@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
     public class Stack<Item>
     {
@@ -15,6 +15,7 @@ namespace Algoritms_and_Data_structures
 
         public bool IsEmpty() =>
             first == null; 
+
         public void Push(Item item)
         {
             Node oldfirst = first;

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
-    class WeightedQuickUnion
+    public class WeightedQuickUnion
     {
         private int[] id;
         private int[] sz;

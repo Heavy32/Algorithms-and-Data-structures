@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
     public class LinkedStackOfStrings
     {

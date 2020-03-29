@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritms_and_Data_structures
+namespace AlgoritmsAndDatastructures
 {
-    class ResizedArray
+    public class ResizedArray
     {
         string[] s;
         int N;

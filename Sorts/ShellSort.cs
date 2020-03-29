@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Sorts
 {
-    class ShellSort
+    public class ShellSort
     {
         public void ShellSortImplement(int[] array)
         {
