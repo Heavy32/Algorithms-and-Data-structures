@@ -6,10 +6,10 @@ namespace Sorts
 {
     public class InsertionSort
     {
-        public InsertionSort(int[] arr, int n)
+        public InsertionSort(int[] arr)
         {
             int i, key, j;
-            for (i = 1; i < n; i++)
+            for (i = 1; i < arr.Length; i++)
             {
                 key = arr[i];
                 j = i - 1;

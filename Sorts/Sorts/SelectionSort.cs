@@ -6,17 +6,10 @@ namespace Sorts
     {
         private int[] data;
         private static Random generator = new Random();
-        public SelectionSort(int size)
-        {
-            data = new int[size];
-            for (int i = 0; i < size; i++)
-            {
-                data[i] = generator.Next(Int32.MinValue, Int32.MaxValue);
-            }
-        }
 
-        public void Sort()
+        public SelectionSort(int[] array)
         {
+            data = array;
             int smallest;
             for (int i = 0; i < data.Length - 1; i++)
             {
@@ -30,7 +23,6 @@ namespace Sorts
                 }
                 Swap(i, smallest);
             }
-
         }
 
         public void Swap(int first, int second)

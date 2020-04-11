@@ -6,7 +6,7 @@ namespace Sorts
 {
     public class ShellSort
     {
-        public void ShellSortImplement(int[] array)
+        public ShellSort(int[] array)
         {
             int n = array.Length;
             int gap = n / 2;
