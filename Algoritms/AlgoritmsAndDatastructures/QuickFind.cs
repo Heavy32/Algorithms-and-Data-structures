@@ -14,7 +14,7 @@ namespace AlgoritmsAndDatastructures
         }
 
 
-        public Boolean Connected(int firstNumber, int secondNumber) => //check whether firstNumber and secondNumber are in the same component (2array accesses)
+        public bool Connected(int firstNumber, int secondNumber) => //check whether firstNumber and secondNumber are in the same component (2array accesses)
             id[firstNumber] == id[secondNumber];
 
 
