@@ -7,7 +7,7 @@ namespace SortsTests
     public static class ArraysForSortTests
     {
         public static int[] Get1000ArrayElementsFromFile() =>
-            File.OpenText("1000RandomElements.txt").ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
+            File.OpenText(@"C:\Users\eBasher\Documents\GitHub\Algorithms-and-Data-structures\Algoritms\Sorts\SortsTests\1000RandomElements.txt").ReadLine().Split(' ').Select(x => Convert.ToInt32(x)).ToArray();
     
         public static int[] Get50ArrayElements() =>
             new int[] {5, 4, 7, 1, 67, 345, 23, 45, 87, 54,
